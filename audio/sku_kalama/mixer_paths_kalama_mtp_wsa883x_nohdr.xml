@@ -195,9 +195,9 @@
     <!-- Volume controls -->
     <ctl name="WSA_RX0 Digital Volume" value="0" />
     <ctl name="WSA_RX1 Digital Volume" value="0" />
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX2 Digital Volume" value="84" />
+    <ctl name="RX_RX0 Digital Volume" value="87" />
+    <ctl name="RX_RX1 Digital Volume" value="87" />
+    <ctl name="RX_RX2 Digital Volume" value="87" />
     <ctl name="HPHL Volume" value="16" />
     <ctl name="HPHR Volume" value="16" />
 
@@ -378,8 +378,8 @@
         <ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
         <ctl name="WSA PBR Enable" value="1" />
         <ctl name="Idle Detect" value="1" />
-        <ctl name="WSA_RX0 Digital Volume" value="84" />
-        <ctl name="WSA_RX1 Digital Volume" value="84" />
+        <ctl name="WSA_RX0 Digital Volume" value="87" />
+        <ctl name="WSA_RX1 Digital Volume" value="87" />
     </path>
 
     <path name="haptics-dev">
@@ -393,7 +393,7 @@
         <ctl name="SpkrLeft COMP Switch" value="1" />
         <ctl name="SpkrLeft VISENSE Switch" value="1" />
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-        <ctl name="WSA_RX0 Digital Volume" value="84" />
+        <ctl name="WSA_RX0 Digital Volume" value="87" />
     </path>
 
     <path name="speaker-mono-2">
@@ -403,7 +403,7 @@
         <ctl name="SpkrRight COMP Switch" value="1" />
         <ctl name="SpkrRight VISENSE Switch" value="1" />
         <ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
-        <ctl name="WSA_RX1 Digital Volume" value="84" />
+        <ctl name="WSA_RX1 Digital Volume" value="87" />
     </path>
 
    <path name="speaker-mono-vbat">
@@ -571,12 +571,12 @@
         <ctl name="SpkrLeft COMP Switch" value="1" />
         <ctl name="SpkrLeft VISENSE Switch" value="1" />
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-        <ctl name="WSA_RX0 Digital Volume" value="78" />
+        <ctl name="WSA_RX0 Digital Volume" value="81" />
     </path>
 
     <path name="voice-screen-call">
         <path name="handset" />
-        <ctl name="WSA_RX0 Digital Volume" value="18" />
+        <ctl name="WSA_RX0 Digital Volume" value="21" />
     </path>
 
     <path name="handset-mic">
@@ -590,7 +590,7 @@
         <ctl name="SpkrLeft COMP Switch" value="1" />
         <ctl name="SpkrLeft VISENSE Switch" value="1" />
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-        <ctl name="WSA_RX0 Digital Volume" value="50" />
+        <ctl name="WSA_RX0 Digital Volume" value="53" />
     </path>
 
     <path name="ultrasound-mic">
@@ -647,8 +647,8 @@
 
     <path name="line">
         <path name="headphones" />
-        <ctl name="RX_RX0 Digital Volume" value="93" />
-        <ctl name="RX_RX1 Digital Volume" value="93" />
+        <ctl name="RX_RX0 Digital Volume" value="96" />
+        <ctl name="RX_RX1 Digital Volume" value="96" />
     </path>
 
     <path name="headset-mic">
