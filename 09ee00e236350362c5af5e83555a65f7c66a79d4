@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49fca4a9_67fe5a77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-01-15T16:44:50Z",
+      "side": 1,
+      "message": "Definitely helps reduce out size and also speeds up my build time a bit too",
+      "revId": "09ee00e236350362c5af5e83555a65f7c66a79d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
