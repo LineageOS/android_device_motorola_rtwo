@@ -34,6 +34,41 @@
       "parentUuid": "d73f0a2d_b947e7a3",
       "revId": "8e2d042a342c5f66dd92a40cdb66cb6ec7e063df",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a409801_fbaa64e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-01-16T13:33:31Z",
+      "side": 1,
+      "message": "This commit works, we just need this merged as mentioned by Ralph Chen:\n\nhttps://review.lineageos.org/c/LineageOS/android_frameworks_base/+/379982",
+      "revId": "8e2d042a342c5f66dd92a40cdb66cb6ec7e063df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ee09d2f_9a91bc12",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-01-16T13:33:31Z",
+      "side": 1,
+      "message": "Thanks for linking that! We do indeed need that commit on rtwo to fix the issue I mentioned",
+      "parentUuid": "c133604d_ed351b4a",
+      "revId": "8e2d042a342c5f66dd92a40cdb66cb6ec7e063df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
