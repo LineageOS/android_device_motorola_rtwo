@@ -16,6 +16,24 @@
       "message": "WIP... currently not seeing any UDFPS overlay when registering a new fingerprint",
       "revId": "8e2d042a342c5f66dd92a40cdb66cb6ec7e063df",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c133604d_ed351b4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32197
+      },
+      "writtenOn": "2024-01-16T03:56:05Z",
+      "side": 1,
+      "message": "You\u0027ll need this patch:\nhttps://github.com/AOSPA/android_frameworks_base/commit/b0ddb972494137682e2d431c42a64488e8c0c3d7",
+      "parentUuid": "d73f0a2d_b947e7a3",
+      "revId": "8e2d042a342c5f66dd92a40cdb66cb6ec7e063df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
