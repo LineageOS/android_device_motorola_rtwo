@@ -2623,7 +2623,6 @@ product/etc/CarrierSettings/s45701.pb
 product/etc/CarrierSettings/s45702.pb
 product/etc/CarrierSettings/s45703.pb
 product/etc/CarrierSettings/s45708.pb
-product/etc/CarrierSettings/s46030.pb
 product/etc/CarrierSettings/s46601imsi_3d_4660116090.pb
 product/etc/CarrierSettings/s46601imsi_3d_4660116091.pb
 product/etc/CarrierSettings/s46601.pb
@@ -3068,16 +3067,17 @@ product/etc/CarrierSettings/s90143.pb
 product/etc/CarrierSettings/s90158.pb
 
 # CarrierSettings - from motorola/rtwo_cn/rtwo:14/U1TR34.8-19-11/a7b98-bf32f9:user/release-keys - RETCN variant
-product/etc/CarrierSettings/s46000.pb|d4598c87240639b825593499e0087570ba3cec83
-product/etc/CarrierSettings/s46001.pb|2453d0eed8fe75d88fe016b8f4014177be832cdb
-product/etc/CarrierSettings/s46002.pb|7d0716c4cd99556e4b98cfd0e1baa51e46986a61
-product/etc/CarrierSettings/s46003.pb|bb7a77214a3dd73165535822ccf353613cb7cdde
-product/etc/CarrierSettings/s46004.pb|ea909f134e9b1e099ce83cd79810d7a8dbca8ac6
-product/etc/CarrierSettings/s46006.pb|cf0b9ff32827557a0d92a32697552b587f490248
-product/etc/CarrierSettings/s46007.pb|53a9bc90e0261b98aa01782290661349db1bce58
-product/etc/CarrierSettings/s46008.pb|8ca963d8b4ea79d6e85ba40050e89fdb6685677c
-product/etc/CarrierSettings/s46009.pb|b43d8b14a5f978f6072f0f324bf8230f32e06aac
-product/etc/CarrierSettings/s46011.pb|e4efaa6b278486cf659677b6844bf466fea79c9c
-product/etc/CarrierSettings/s46012.pb|b54fad0e0f32ab4e7fc417360d773d445db04d6b
-product/etc/CarrierSettings/s46013.pb|5a19bda57268a8e0f549535998733657c211a866
-product/etc/CarrierSettings/s46015.pb|1b26cf530f272c49c0b0256d8200dc156fe30017
+product/etc/CarrierSettings/s46000.pb|cd613622a7d6e4740d09a8abdb8ed8774ab02c40
+product/etc/CarrierSettings/s46001.pb|7afe42f0aaf9b861366ce98e5420804e2f4ce859
+product/etc/CarrierSettings/s46002.pb|e7bc804d72dd71d75b4ee58e03a739d91c1ae087
+product/etc/CarrierSettings/s46003.pb|596c61c5d1e0f38434b390891888ea8e11372f04
+product/etc/CarrierSettings/s46004.pb|adf22c9bedb8d577f24236ebb9d42de26ab73b3c
+product/etc/CarrierSettings/s46006.pb|6eec31bbc9c8be46601ba5f98640e15642d8b2e1
+product/etc/CarrierSettings/s46007.pb|fd7e91ca288efe632af8263c5c339090b1021d22
+product/etc/CarrierSettings/s46008.pb|7bf914e55cbc6e625982ffc273c502e3c53b6c4f
+product/etc/CarrierSettings/s46009.pb|c3cddd4c46fd8a38da075fb96c67d29530494a68
+product/etc/CarrierSettings/s46011.pb|b1713224fa661be5235c3295fc66f4e27ac94025
+product/etc/CarrierSettings/s46012.pb|dfcfe9df202776ed7590533046e165aeec1461bd
+product/etc/CarrierSettings/s46013.pb|60b935071f3e595000b1846b3c062ad540094464
+product/etc/CarrierSettings/s46015.pb|fcb6b1456b08758a0a53ffc05ec2b70f019e93f4
+product/etc/CarrierSettings/s46030.pb|89de507b668c0c1191f9eab373eea2388f78350c
