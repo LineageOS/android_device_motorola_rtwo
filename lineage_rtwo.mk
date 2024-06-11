@@ -24,6 +24,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=rtwo_g \
-    PRIVATE_BUILD_DESC="rtwo_g-user 14 U1TRS34.8-30-13-1 7c77a-12bae6 release-keys"
+    PRIVATE_BUILD_DESC="rtwo_g-user 14 U1TR34.8-30-13-2-2 5b4b0d-dde58 release-keys"
 
-BUILD_FINGERPRINT := motorola/rtwo_g/rtwo:14/U1TRS34.8-30-13-1/7c77a-12bae6:user/release-keys
+BUILD_FINGERPRINT := motorola/rtwo_g/msi:14/U1TR34.8-30-13-2-2/5b4b0d-dde58:user/release-keys
