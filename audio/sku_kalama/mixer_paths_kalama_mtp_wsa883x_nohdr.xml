@@ -201,24 +201,24 @@
     <ctl name="HPHL Volume" value="16" />
     <ctl name="HPHR Volume" value="16" />
 
-    <ctl name="TX_DEC0 Volume" value="87" />
-    <ctl name="TX_DEC1 Volume" value="87" />
-    <ctl name="TX_DEC2 Volume" value="87" />
-    <ctl name="TX_DEC3 Volume" value="87" />
-    <ctl name="TX_DEC4 Volume" value="87" />
-    <ctl name="TX_DEC5 Volume" value="87" />
-    <ctl name="TX_DEC6 Volume" value="87" />
-    <ctl name="TX_DEC7 Volume" value="87" />
+    <ctl name="TX_DEC0 Volume" value="92" />
+    <ctl name="TX_DEC1 Volume" value="92" />
+    <ctl name="TX_DEC2 Volume" value="92" />
+    <ctl name="TX_DEC3 Volume" value="92" />
+    <ctl name="TX_DEC4 Volume" value="92" />
+    <ctl name="TX_DEC5 Volume" value="92" />
+    <ctl name="TX_DEC6 Volume" value="92" />
+    <ctl name="TX_DEC7 Volume" value="92" />
 
-    <ctl name="ADC1 Volume" value="15" />
-    <ctl name="ADC2 Volume" value="15" />
-    <ctl name="ADC3 Volume" value="15" />
-    <ctl name="ADC4 Volume" value="15" />
+    <ctl name="ADC1 Volume" value="20" />
+    <ctl name="ADC2 Volume" value="20" />
+    <ctl name="ADC3 Volume" value="20" />
+    <ctl name="ADC4 Volume" value="20" />
 
-    <ctl name="VA_DEC0 Volume" value="87" />
-    <ctl name="VA_DEC1 Volume" value="87" />
-    <ctl name="VA_DEC2 Volume" value="87" />
-    <ctl name="VA_DEC3 Volume" value="87" />
+    <ctl name="VA_DEC0 Volume" value="92" />
+    <ctl name="VA_DEC1 Volume" value="92" />
+    <ctl name="VA_DEC2 Volume" value="92" />
+    <ctl name="VA_DEC3 Volume" value="92" />
 
     <!-- Compander controls -->
     <ctl name="WSA_COMP1 Switch" value="0" />
@@ -652,7 +652,7 @@
     </path>
 
     <path name="headset-mic">
-        <ctl name="TX_DEC0 Volume" value="95" />
+        <ctl name="TX_DEC0 Volume" value="100" />
         <path name="amic2" />
     </path>
 
@@ -865,7 +865,7 @@
         <ctl name="VA SMIC MUX0" value="SWR_MIC4" />
         <ctl name="ADC1 ChMap" value="SWRM_TX2_CH1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="13" />
+        <ctl name="ADC1 Volume" value="18" />
         <ctl name="VA_AMIC1_MIXER Switch" value="1" />
     </path>
 
@@ -883,8 +883,8 @@
         <ctl name="ADC2 ChMap" value="SWRM_TX2_CH2" />
         <ctl name="ADC1_MIXER Switch" value="1" />
         <ctl name="ADC2_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="13" />
-        <ctl name="ADC2 Volume" value="13" />
+        <ctl name="ADC1 Volume" value="24" />
+        <ctl name="ADC2 Volume" value="24" />
         <ctl name="VA_AMIC1_MIXER Switch" value="1" />
         <ctl name="VA_AMIC3_MIXER Switch" value="1" />
     </path>
@@ -1031,14 +1031,14 @@
         <ctl name="ADC2_MIXER Switch" value="1" />
         <ctl name="AMIC1_MIXER Switch" value="1" />
         <ctl name="AMIC3_MIXER Switch" value="1" />
-        <ctl name="TX_DEC2 Volume" value="99" />
-        <ctl name="TX_DEC3 Volume" value="99" />
+        <ctl name="TX_DEC2 Volume" value="101" />
+        <ctl name="TX_DEC3 Volume" value="101" />
     </path>
 
     <path name="screen-call-dmic-endfire">
         <path name="handset-dmic-endfire" />
-        <ctl name="TX_DEC2 Volume" value="19" />
-        <ctl name="TX_DEC3 Volume" value="19" />
+        <ctl name="TX_DEC2 Volume" value="24" />
+        <ctl name="TX_DEC3 Volume" value="24" />
     </path>
 
     <path name="speaker-dmic-endfire">
@@ -1282,14 +1282,14 @@
         <ctl name="ADC2_MIXER Switch" value="1"/>
         <ctl name="AMIC1_MIXER Switch" value="1"/>
         <ctl name="AMIC5_MIXER Switch" value="1"/>
-        <ctl name="TX_DEC1 Volume" value="87"/>
-        <ctl name="TX_DEC2 Volume" value="87"/>
-        <ctl name="TX_DEC3 Volume" value="87"/>
-        <ctl name="TX_DEC4 Volume" value="87"/>
-        <ctl name="ADC1 Volume" value="19"/>
+        <ctl name="TX_DEC1 Volume" value="92"/>
+        <ctl name="TX_DEC2 Volume" value="92"/>
+        <ctl name="TX_DEC3 Volume" value="92"/>
+        <ctl name="TX_DEC4 Volume" value="92"/>
+        <ctl name="ADC1 Volume" value="24"/>
         <ctl name="ADC2 Volume" value="0"/>
         <ctl name="ADC3 Volume" value="0"/>
-        <ctl name="ADC4 Volume" value="19"/>
+        <ctl name="ADC4 Volume" value="24"/>
     </path>
 
     <path name="unprocessed-hdr-mic-landscape">
@@ -1333,14 +1333,14 @@
         <ctl name="ADC2_MIXER Switch" value="1"/>
         <ctl name="AMIC1_MIXER Switch" value="1"/>
         <ctl name="AMIC3_MIXER Switch" value="1"/>
-        <ctl name="TX_DEC1 Volume" value="87"/>
-        <ctl name="TX_DEC2 Volume" value="87"/>
-        <ctl name="TX_DEC3 Volume" value="87"/>
-        <ctl name="TX_DEC4 Volume" value="87"/>
-        <ctl name="ADC1 Volume" value="15"/>
-        <ctl name="ADC2 Volume" value="15"/>
-        <ctl name="ADC3 Volume" value="15"/>
-        <ctl name="ADC4 Volume" value="15"/>
+        <ctl name="TX_DEC1 Volume" value="92"/>
+        <ctl name="TX_DEC2 Volume" value="92"/>
+        <ctl name="TX_DEC3 Volume" value="92"/>
+        <ctl name="TX_DEC4 Volume" value="92"/>
+        <ctl name="ADC1 Volume" value="20"/>
+        <ctl name="ADC2 Volume" value="20"/>
+        <ctl name="ADC3 Volume" value="20"/>
+        <ctl name="ADC4 Volume" value="20"/>
     </path>
 
     <path name="unprocessed-hdr-mic-portrait">
@@ -1413,7 +1413,7 @@
     <path name="voice-tty-full-headset-mic">
         <path name="amic2" />
         <ctl name="ADC2 Volume" value="0" />
-        <ctl name="TX_DEC0 Volume" value="87" />
+        <ctl name="TX_DEC0 Volume" value="92" />
     </path>
 
     <path name="voice-tty-hco-headset-mic">
