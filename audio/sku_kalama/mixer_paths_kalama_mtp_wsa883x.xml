@@ -652,7 +652,7 @@
     </path>
 
     <path name="headset-mic">
-        <ctl name="TX_DEC0 Volume" value="100" />
+        <ctl name="TX_DEC0 Volume" value="95" />
         <path name="amic2" />
     </path>
 
@@ -720,6 +720,7 @@
 
     <path name="voice-speaker-mic">
         <path name="speaker-mic" />
+        <ctl name="TX_DEC2 Volume" value="87" />
     </path>
 
     <path name="voice-headphones">
@@ -1410,7 +1411,7 @@
     <path name="voice-tty-full-headset-mic">
         <path name="amic2" />
         <ctl name="ADC2 Volume" value="0" />
-        <ctl name="TX_DEC0 Volume" value="92" />
+        <ctl name="TX_DEC0 Volume" value="87" />
     </path>
 
     <path name="voice-tty-hco-headset-mic">
@@ -1424,6 +1425,7 @@
         <ctl name="HDR12 MUX" value="NO_HDR12" />
         <ctl name="ADC2_MIXER Switch" value="1" />
         <ctl name="AMIC2_MIXER Switch" value="1" />
+        <ctl name="TX_DEC6 Volume" value="87" />
     </path>
 
     <path name="voice-tty-vco-handset-mic">
