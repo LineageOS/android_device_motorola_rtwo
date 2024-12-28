@@ -22,6 +22,30 @@
       },
       "revId": "7c75b721772b5cc3177f34ab5f2c718f7442f1eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22cf96fb_e3d3876d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-12-28T22:55:11Z",
+      "side": 1,
+      "message": "oh, I heard some people saying Qualcomm was dropping QTI BT in favor of supporting their codecs on AOSP? tbh I never checked it myself lol fml I was just gonna build with this and test, but I guess I\u0027ll just abandon this stuff then",
+      "parentUuid": "625a2669_31b3c711",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 48
+      },
+      "revId": "7c75b721772b5cc3177f34ab5f2c718f7442f1eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
