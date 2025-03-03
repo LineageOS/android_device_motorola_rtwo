@@ -90,5 +90,9 @@ $(call soong_config_set,lineage_powershare,powershare_path,/sys/class/power_supp
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Vibrator
+$(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.moto_sm8550-richtap)
+$(call soong_config_set,qti_vibrator,use_effect_stream,true)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/rtwo/rtwo-vendor.mk)
