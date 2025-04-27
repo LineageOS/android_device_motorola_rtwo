@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5aa6d242_5d088eec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-04-27T16:26:29Z",
+      "side": 1,
+      "message": "An rtwo user said PowerShare works for him, so we are ready to merge whenever deps are",
+      "revId": "4219e41d5d1f3f190885534a61671c0cde470a01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
