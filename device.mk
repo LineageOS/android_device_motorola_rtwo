@@ -89,7 +89,10 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
+    vendor.lineage.touch-service.motorola \
     vendor.lineage.touch@1.0-service.rtwo
+
+$(call soong_config_set, MOTOROLA_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/touchscreen/primary/interpolation)
 
 # PowerShare
 PRODUCT_PACKAGES += \
