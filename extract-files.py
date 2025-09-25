@@ -41,7 +41,9 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/bin/hw/vendor.qti.camera.provider-service_64',
         'vendor/lib64/camx.provider-impl.so',
     ): blob_fixup()
-        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so')
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/lib64/libgf_hal.so': blob_fixup()
+        .replace_needed('vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor.so', 'vendor.goodix.hardware.biometrics.fingerprint@2.1.so'),
 }  # fmt: skip
 
 extract_fns: extract_fns_user_type = {
