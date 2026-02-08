@@ -339,6 +339,7 @@ product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc
+vendor/etc/vintf/manifest/vendor.goodix.hardware.biometrics.fingerprint@2.1-service.xml
 vendor/lib64/hw/fingerprint.goodix.so
 vendor/lib64/com.motorola.hardware.display.panel@1.0.so
 vendor/lib64/libgf_hal.so
