@@ -56,6 +56,8 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.moto \
     libudfpshandler_moto
 
+$(call soong_config_set,moto_udfps,screen_wake_delay,200)
+
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc
