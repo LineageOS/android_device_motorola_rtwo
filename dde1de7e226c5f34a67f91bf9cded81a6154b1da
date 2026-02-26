@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42c9edc8_a16b8915",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-02-26T19:39:10Z",
+      "side": 1,
+      "message": "checked out to patchset 2 of\nhttps://review.lineageos.org/c/LineageOS/scripts/+/475530\n\nthemard@themard-vmware:~/android/lineage-23.2/lineage/scripts/dev$ ./beautify_rro.py ~/android/lineage-23.2/device/motorola/rtwo/resource-overlay/\nFailed to find filegroup generate_priv_manifest\nFailed to find package name for app CtsShimPriv\nFailed to find filegroup NetworkStackTestAndroidManifest\nFailed to find package name for app TestNetworkStack\ncom.android.systemui.overlay.device: found multiple matches for com.android.systemui:\nSystemUI, CarSystemUI, TvSystemUI, SystemUIGo, CarDistantDisplaySystemUI\ncom.android.systemui.overlay.device: picked SystemUI\nandroid.overlay.device: @array/config_ambientThresholdsOfPeakRefreshRate -\u003e @integer-array/config_ambientThresholdsOfPeakRefreshRate\nandroid.overlay.device: @array/config_availableColorModes -\u003e @integer-array/config_availableColorModes\nandroid.overlay.device: @array/config_biometric_sensors -\u003e @string-array/config_biometric_sensors\nandroid.overlay.device: @array/config_brightnessThresholdsOfPeakRefreshRate -\u003e @integer-array/config_brightnessThresholdsOfPeakRefreshRate\nandroid.overlay.device: @array/config_udfps_sensor_props -\u003e @integer-array/config_udfps_sensor_props\nandroid.overlay.device: @integer-array/config_screenBrightnessNits -\u003e @array/config_screenBrightnessNits\ncom.android.systemui.device.lineage: found multiple matches for com.android.systemui:\nSystemUI, CarSystemUI, TvSystemUI, SystemUIGo, CarDistantDisplaySystemUI\ncom.android.systemui.device.lineage: picked SystemUI\nandroid.overlay.product.device: @array/config_availableColorModes -\u003e @integer-array/config_availableColorModes\ncom.android.systemui.overlay.device: @dimen/physical_volume_down_button_center_screen_location_y not found in com.android.systemui\ncom.android.systemui.overlay.device: @dimen/physical_volume_up_button_center_screen_location_y not found in com.android.systemui\ncom.android.systemui.overlay.device: @dimen/system_icons_keyguard_padding_end not found in com.android.systemui\nandroid.overlay.device: @dimen/status_bar_padding_top_portrait not found in android\nandroid.overlay.device: @integer/config_udfps_illumination_transition_ms not found in android",
+      "revId": "dde1de7e226c5f34a67f91bf9cded81a6154b1da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
