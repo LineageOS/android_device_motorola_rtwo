@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcc85b9e_d1ebe703",
+        "filename": "device.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-03-14T14:17:49Z",
+      "side": 1,
+      "message": "It\u0027s not DEVICE_PATH anymore",
+      "range": {
+        "startLine": 101,
+        "startChar": 6,
+        "endLine": 101,
+        "endChar": 17
+      },
+      "revId": "3756bc361eee71f6562a43713ede236c9dd4b11f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
