@@ -22,6 +22,30 @@
       },
       "revId": "3756bc361eee71f6562a43713ede236c9dd4b11f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "759fef38_e564b92a",
+        "filename": "device.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-03-14T14:24:02Z",
+      "side": 1,
+      "message": "yeah I should have made this LOCAL_PATH on this commit too, but I corrected it in the follow up commit",
+      "parentUuid": "fcc85b9e_d1ebe703",
+      "range": {
+        "startLine": 101,
+        "startChar": 6,
+        "endLine": 101,
+        "endChar": 17
+      },
+      "revId": "3756bc361eee71f6562a43713ede236c9dd4b11f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
