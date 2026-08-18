@@ -83,10 +83,6 @@ PRODUCT_PACKAGES += \
     hardware.sku.XT2301-1.prop \
     hardware.sku.XT2301-5.prop
 
-# Thermal
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-rtwo-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-rtwo.conf
-
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.default

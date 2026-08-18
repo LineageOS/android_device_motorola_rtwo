@@ -456,6 +456,7 @@ vendor/etc/sensors/sns_reg_config
 
 # Thermal engine - configs
 vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine-rtwo-game-perf.conf:vendor/etc/thermal-engine-rtwo.conf
 
 # Touchscreen firmware
 vendor/firmware/csot01_goodix_cfg_group.bin
