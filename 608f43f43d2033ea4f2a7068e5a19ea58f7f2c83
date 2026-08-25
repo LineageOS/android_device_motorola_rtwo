@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b46c783_46bbfe31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-08-25T07:50:22Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/scripts/+/499095",
+      "revId": "608f43f43d2033ea4f2a7068e5a19ea58f7f2c83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
