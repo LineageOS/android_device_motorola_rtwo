@@ -45,18 +45,6 @@ on boot
     chown system system /sys/class/touchscreen/primary/sample
     chmod 0660 /sys/class/touchscreen/primary/sample
 
-    # Set adaptive charging perms for HAL
-    chown system system /sys/module/qpnp_adaptive_charge/parameters/upper_limit
-    chown system system /sys/module/qpnp_adaptive_charge/parameters/lower_limit
-
-    # Set wlc icl and fw update
-    chown system system /sys/class/power_supply/wireless/device/tx_mode
-    chown system system /sys/class/power_supply/wireless/device/wls_input_current_limit
-    chmod 0660 /sys/class/power_supply/wireless/device/tx_mode
-    chmod 0660 /sys/class/power_supply/wireless/device/wls_input_current_limit
-    write /sys/class/qcom-battery/wireless_fw_update_time_ms 7000
-    write /sys/class/qcom-battery/wireless_fw_update 1
-
     #change vibrator test node file access permission
     chmod 0660 /sys/class/qcom-haptics/enable_play
     chown vendor_tcmd system /sys/class/qcom-haptics/enable_play
@@ -96,6 +84,18 @@ on property:sys.boot_completed=1
     chmod 0660 /sys/devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:mmi,qti-glink-charger/force_wls_en
     chmod 0660 /sys/devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:mmi,qti-glink-charger/force_wls_curr_max
     chmod 0660 /sys/devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:mmi,qti-glink-charger/force_wls_volt_max
+
+    # Set adaptive charging perms for HAL
+    chown system system /sys/module/qpnp_adaptive_charge/parameters/upper_limit
+    chown system system /sys/module/qpnp_adaptive_charge/parameters/lower_limit
+
+    # Set wlc icl and fw update
+    chown system system /sys/class/power_supply/wireless/device/tx_mode
+    chown system system /sys/class/power_supply/wireless/device/wls_input_current_limit
+    chmod 0660 /sys/class/power_supply/wireless/device/tx_mode
+    chmod 0660 /sys/class/power_supply/wireless/device/wls_input_current_limit
+    write /sys/class/qcom-battery/wireless_fw_update_time_ms 7000
+    write /sys/class/qcom-battery/wireless_fw_update 1
 
 #Override fwpath string when wpa_supplicant server was killed
 on property:vendor.wifi.station=true
