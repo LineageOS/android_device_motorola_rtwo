@@ -6,20 +6,30 @@ on early-boot
     # Add for goodix fingerprint
     chown system system /dev/goodix_fp
     chmod 0664 /dev/goodix_fp
-    mkdir /data/vendor/gf_data 0770 system system
-    mkdir /mnt/vendor/persist/goodix 0770 system system
-    # Add for after-sales ois gyro cal
-    mkdir /mnt/vendor/persist/camera/gyro_compat 0770 vendor_tcmd camera
-    # Create directory for wireless charge test in factory
-    mkdir /data/vendor/wlc 0775 vendor_tcmd system
+
     chown system system /mnt/vendor/persist/sensors/als_comp_multi_cal_raw
     chmod 0664 /mnt/vendor/persist/sensors/als_comp_multi_cal_raw
     write /sys/kernel/mm/lru_gen/enabled Y
 
+on post-fs-data
+    mkdir /data/vendor/gf_data 0770 system system
+    mkdir /mnt/vendor/persist/goodix 0770 system system
+
+    # Create directory for wireless charge test in factory
+    mkdir /data/vendor/wlc 0775 vendor_tcmd system
+
+    # Add for after-sales ois gyro cal
+    mkdir /mnt/vendor/persist/camera/gyro_compat 0770 vendor_tcmd camera
+
 on boot
-    # allow TCMD to access cci
+    # allow TCMD to access cci for OIS test
     chmod 0660 /dev/cci_intf
     chown system camera /dev/cci_intf
+
+    #bluetooth sar
+    write /data/vendor/radio/bluetooth_sar disable
+    chmod 0644 /data/vendor/radio/bluetooth_sar
+    chown radio /data/vendor/radio/bluetooth_sar
 
     # Touch game mode control
     chown system system /sys/class/touchscreen/primary/rotate
@@ -35,15 +45,6 @@ on boot
     chown system system /sys/class/touchscreen/primary/sample
     chmod 0660 /sys/class/touchscreen/primary/sample
 
-    #change vibrator test node file access permission
-    chmod 0660 /sys/class/qcom-haptics/enable_play
-    chown vendor_tcmd system /sys/class/qcom-haptics/enable_play
-
-    #bluetooth sar
-    write /data/vendor/radio/bluetooth_sar disable
-    chmod 0644 /data/vendor/radio/bluetooth_sar
-    chown radio /data/vendor/radio/bluetooth_sar
-
     # Set adaptive charging perms for HAL
     chown system system /sys/module/qpnp_adaptive_charge/parameters/upper_limit
     chown system system /sys/module/qpnp_adaptive_charge/parameters/lower_limit
@@ -53,8 +54,12 @@ on boot
     chown system system /sys/class/power_supply/wireless/device/wls_input_current_limit
     chmod 0660 /sys/class/power_supply/wireless/device/tx_mode
     chmod 0660 /sys/class/power_supply/wireless/device/wls_input_current_limit
-    write /sys/class/qcom-battery/wireless_fw_update_time_ms 10000
+    write /sys/class/qcom-battery/wireless_fw_update_time_ms 7000
     write /sys/class/qcom-battery/wireless_fw_update 1
+
+    #change vibrator test node file access permission
+    chmod 0660 /sys/class/qcom-haptics/enable_play
+    chown vendor_tcmd system /sys/class/qcom-haptics/enable_play
 
     # Set wlc perms for HAL
     chown system system /sys/class/power_supply/wireless/device/wlc_light_ctl
